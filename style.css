@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    /* background-repeat:inherit; */
+    overflow-y: hidden;
+}
+
+#wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container{
+    display: flex;
+    margin-bottom: 100px;
+    /* padding: 250px; */
+    /* border-radius: 2px; */
+    /* border: 2px solid black; */
+}
+
+.tagline-div{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(35, 35, 35);
+    font-size: 32px;
+}
+
+.tagline-div p{
+    margin: 100px 0px 0px 0px;
+}
+
+.left-container{
+    margin: 100px 200px 0px 0px;
+    padding: 100px;
+    width: 50vw;
+    height: 75vh;
+    background-color: whitesmoke;
+    border: hidden;
+    border-radius: 10px;
+    box-shadow: -35px -55px 100px rgba(249, 126, 255, 0.304);
+}
+
+#brand-name{
+    margin: -50px 0px 0px -50px;
+    color:  rgb(50, 139, 255);
+}
+
+
+.right-container{
+    margin: 100px 0px 0px -100px;
+    height: 75vh;
+    width: 35vw;
+    background-color: whitesmoke;
+    border: hidden;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 55px 55px 150px rgb(169, 212, 255);
+}
+
+
+form{
+    margin: 30px 0px -110px 70px;
+    width: 27vw;
+    height: 40vh;
+    /* border: 2px solid black; */
+    padding: 10px;
+}
+
+#login-txt{
+    margin: -120px 0px 0px 0px;
+    text-align: center;
+    font-size: 46px;
+    color: rgb(35, 35, 35);
+}
+
+#sign{
+    text-align: center;
+    margin: 10px 80px 0px 0px;
+}
+
+a{
+    color:rgb(35, 35, 35);
+}
+
+label{
+    margin-bottom: 10px;
+    color: rgb(35, 35, 35);
+}
+
+input{
+
+    outline: hidden;
+    border: 2px solid grey;
+    border-radius: 3px;
+    width: 20vw;
+    height: 4vh;
+}
+
+/* #submit{
+    margin: 20px 0px 0px 0px;
+    width: 20vw;
+    height: 5vh;
+    color: white;
+    font-weight:bolder;
+    font-size: 18px;
+     padding: 5px; 
+    border: hidden;
+    background-color: rgb(50, 139, 255);
+    border-radius: 5px;
+} */
+
+#login-btn{
+    margin: 20px 0px 0px 0px;
+    padding: 7px 20px 7px 20px;
+    padding-inline: 125px;
+    width: 100px;
+    height: 5vh;
+    color: white;
+    font-weight:bolder;
+    font-size: 18px;
+    /* padding: 5px; */
+    border-radius: 5px;
+    border: hidden;
+    background-color: rgb(50, 139, 255);
+    text-decoration: none;
+    
+}
+
+
